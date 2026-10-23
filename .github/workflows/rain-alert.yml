@@ -10,7 +10,7 @@ on:
     inputs:
       prob_threshold:
         description: "Rain probability threshold in % (0 = always send a test email)"
-        default: "50"
+        default: "10"
 
 permissions:
   contents: write           # needed to commit the log and forecast history
@@ -55,7 +55,7 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           RAIN_RECIPIENTS: ${{ secrets.RAIN_RECIPIENTS }}
-          RAIN_PROB_THRESHOLD: ${{ inputs.prob_threshold || '50' }}
+          RAIN_PROB_THRESHOLD: ${{ inputs.prob_threshold || '10' }}
         run: Rscript rain-alert.R
 
       - name: Save log and forecast history to the repo
