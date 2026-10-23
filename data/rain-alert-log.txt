@@ -1,3 +1,4 @@
 2026-10-23 13:52:00 CEST ERROR The object provided in `email` must be an `email_message` object.
  * This can be created with the `compose_email()` function.
 2026-10-23 13:55:11 CEST OK  2026-10-23: rain expected, email sent (1 window(s))
+2026-10-23 14:15:34 CEST OK  2026-10-23: rain expected, email sent (1 window(s))
