@@ -9,3 +9,4 @@
 2026-10-28 06:30:12 CET OK  2026-10-28: rain expected, email sent (1 window(s))
 2026-10-29 06:31:29 CET OK  2026-10-29: rain expected, email sent (1 window(s))
 2026-10-30 06:32:55 CET OK  2026-10-30: no rain expected (max 0%), no email
+2026-10-31 06:27:47 CET OK  2026-10-31: rain expected, email sent (1 window(s))
